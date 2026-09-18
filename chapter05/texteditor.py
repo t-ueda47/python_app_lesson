@@ -61,7 +61,7 @@ def savetext():
     )
 
     if not savename:
-        sg.PopopTimed("ファイル名を入力してください。")
+        sg.PopupTimed("ファイル名を入力してください。")
         return
     if savename.find(".") == -1:
         savename = savename + ".txt"  # 拡張子がなければ追加
